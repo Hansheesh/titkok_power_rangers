@@ -1,0 +1,10 @@
+[project]
+name = "techjam-track4-shopping-copilot"
+version = "0.2.0"
+description = "Adaptive retrieval and uncertainty-aware clarification for TikTok TechJam 2026 Track 4"
+requires-python = ">=3.10"
+
+[tool.hackathon]
+default_config = "config/best.json"
+max_turns = 10
+primary_focus_order = ["hit_rate_at_10", "mrr", "mttc"]
