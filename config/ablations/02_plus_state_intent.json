@@ -1,0 +1,23 @@
+{
+  "name": "ablation_plus_state_intent",
+  "use_intent_routing": true,
+  "use_profile_route": true,
+  "use_reranker": true,
+  "use_clarification": false,
+  "use_uncertainty_gate": false,
+  "use_override_reset": true,
+  "retrieval_limit_multiplier": 18,
+  "minimum_retrieval_limit": 180,
+  "rrf_k": 45.0,
+  "uncertainty_threshold": 0.82,
+  "minimum_candidates_for_question": 4,
+  "route_weights": {
+    "general_buying": 0.95,
+    "general_browsing": 1.15,
+    "constraint_buying": 1.45,
+    "constraint_browsing": 1.05,
+    "category": 1.25,
+    "profile_buying": 0.25,
+    "profile_browsing": 0.45
+  }
+}

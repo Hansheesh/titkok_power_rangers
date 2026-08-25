@@ -1,0 +1,9 @@
+# Runtime dependencies
+# --------------------
+# None. The reference implementation intentionally uses only Python's standard
+# library (including sqlite3/FTS5) so the evaluator can run offline.
+#
+# Recommended interpreter: Python 3.10+
+#
+# If the team later adds local embeddings, pin the exact package/model versions
+# here before the configuration is frozen.

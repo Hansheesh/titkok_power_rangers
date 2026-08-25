@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Organizer data and evaluator assets
+# Keep the frozen competition data local unless the rules explicitly require
+# committing it. The organizer dataset is read-only for this track.
+data/catalog.jsonl
+data/catalog.jsonl.gz
+data/public_set.jsonl
+data/private_set.jsonl
+data/releases/
+
+# Organizer BM25 snapshot used only for local baseline measurement.
+baselines/organizer_bm25_agent.py
+
+# Model / cache artifacts
+*.onnx
+*.pt
+*.pth
+*.bin
+.cache/
+models/
+
+# Evaluator and experiment outputs
+results.json
+results_*.json
+experiments/runs/
+experiments/*.tmp
+*.log
+
+# Temporary files
+tmp/
