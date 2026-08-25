@@ -6,8 +6,7 @@ import json
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
-#gayy
-#lesbian
+
 
 ALIASES = {
     "hit_rate_at_10": {"hitrate10", "hitrate@10", "hit_rate_at_10", "hit_rate@10", "hr10"},
